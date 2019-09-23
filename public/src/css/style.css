@@ -1,0 +1,104 @@
+.box {
+    height: 600px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.box__left {
+    background: linear-gradient(159.4deg, #A4EDFF 12.07%, #9CBFEA 40%, #8024A3 99.49%);
+    border-radius: 20px 0 0 20px;
+}
+
+.box__right {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 20px 20px 0;
+}
+
+.box__image {
+    padding: 20px 0 20px 0;
+    margin-left: -90px;
+}
+
+.box--image--size {
+    width: 23rem;
+    height: 23rem;
+}
+
+
+@media screen and (max-width: 580px) {
+    .box__right {
+        border-radius: 0
+    }
+
+    .box__left {
+        padding: 1rem;
+        border-radius: 0;
+    }
+
+    h2 {
+        font-size: 3rem
+    }
+}
+
+.circle--white {
+    color: #f8f4f3;
+}
+
+.circle--grey {
+    color: #8a8985
+}
+
+.circle--size {
+    font-size: 0.75rem
+}
+
+.star--color {
+    color: #e84a49
+}
+
+h2 {
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: 2rem;
+}
+
+.grey {
+    color: #B2B2B2;
+    font-size: 1.2rem;
+}
+
+.h3--text--color {
+    color: #FE474B;
+}
+
+.description {
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+h5 {
+    font-size: 0.7rem;
+}
+
+.border-right {
+    border-right: 3px black solid;
+}
+
+.big--icon {
+    font-size: 3rem;
+    color: #9D9D9D
+}
+
+.button--bg {
+    background: linear-gradient(159.4deg, #FF9A70 12.07%, #FF8360 40%, #FF544C 99.49%);
+}
+
+.btn-color {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600
+}
+
+.btn:hover {
+    color: white;
+}
